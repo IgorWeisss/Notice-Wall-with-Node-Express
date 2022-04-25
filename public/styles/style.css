@@ -1,0 +1,41 @@
+body {
+  background-image: url("../assets/background.jpg");
+}
+
+.card {
+  background-color: rgb(252, 244, 175);
+  max-width: 30%;
+  min-width: 250px;
+}
+
+.pin {
+  height: 5vh;
+}
+
+.board {
+  height: 100%;
+  padding: 2rem 2rem;
+}
+
+.close {
+  position: absolute;
+  right: 0px;
+}
+
+@media (max-width: 992px) {
+  .card {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    max-width: 100%;
+  }
+}
